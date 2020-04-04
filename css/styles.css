@@ -1,0 +1,144 @@
+/************************TAG SELECTOR******************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Cambria, Georgia, serif;
+  color: #40514e;
+}
+
+h1 {
+  font-family: 'Montez', cursive;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+  font-size: 5.625em;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-weight: 900;
+}
+
+hr {
+  color: grey;
+    border-style: none;
+  border-top: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 10px 0;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+p{
+  line-height: 2;
+}
+/************************CLASS SELECTOR . ******************/
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+margin: 100px 0;
+}
+
+.bottom-container {
+   background-color: #66bfbf;
+   padding: 50px 0 20px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.comp-photo {
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+
+.chillies-photo {
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+
+.max-photo {
+  width: 15%;
+}
+
+.copyright-text{
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.intro-desc{
+  width: 50%;
+  margin: auto;
+}
+
+.mysocial-text{
+  width: 30%;
+  margin: 20px auto 20px auto;
+
+}
+
+.myButton {
+	box-shadow: 0 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Montserrat', sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	padding:12px 26px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #5b8a3c;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/************************ID SELECTOR # ******************/
